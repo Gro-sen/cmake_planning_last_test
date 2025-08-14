@@ -14,3 +14,8 @@ target_link_libraries(process
 PUBLIC
 pnc_map
 )
+
+target_link_libraries(process
+PUBLIC
+Eigen3::Eigen
+)
